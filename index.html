@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>base-apparel-coming-soon-master</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobileStyle.css">
+</head>
+<body>
+    <div class="left-content">
+        <header>
+            <img src="./images/logo.svg" alt="logo">
+        </header>
+        <picture>
+            <img src="./images/hero-mobile.jpg">
+        </picture>
+        <main>
+            <div class="main-content">
+                <div class="main-text">
+                    <h1><span>WE'RE</span> <br> COMING <br> SOON</h1>
+                    <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email bellow to stay up-to-date with announcements and your new launch deals.</p>
+                </div>
+                <div class="input">
+                    <input type="email" onfocus="writing()" autocomplete="off" placeholder="Email Adress" required name="email" id="email">
+                    <img class="error-img" src="./images/icon-error.svg" alt="icon-error">
+                    <button class="submit" onclick="send()">
+                        <img src="./images/icon-arrow.svg" alt="icon-arrow">
+                    </button>
+                </div>
+                <p class="error-txt">Please provide a valid email</p>
+            </div>
+        </main>
+    </div>
+    <div class="right-content">
+        <img src="./images/hero-desktop.jpg" alt="">
+    </div>
+    <aside>
+        <p>
+            challenge for <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor</a> by <a href="https://www.linkedin.com/in/pedro-henrique-649776209/" target="_blank">Pedro</a>
+        </p>
+    </aside>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
